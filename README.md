@@ -2,6 +2,73 @@
 #Project Title:-
 Coffee Quality & Production Analysis Using SQL
 
+## 1. Introduction
+
+Coffee is one of the most popular beverages in the world, and maintaining high coffee quality is important for coffee businesses.
+This project analyzes coffee quality and production data from different countries using SQL. The goal is to identify the best-performing countries, coffee varieties, and processing methods to support better business decisions.
+
+---
+
+## 2. Objective
+
+The main objectives of this project are:
+
+* Analyze coffee quality scores.
+* Identify top-performing countries.
+* Evaluate coffee varieties.
+* Analyze processing methods.
+* Study production volume trends.
+* Generate useful business insights using SQL.
+
+---
+
+## 3. Dataset Description
+
+The dataset contains 100 coffee records collected from different coffee-producing countries.
+
+### Columns Included
+
+* ID
+* Country
+* Variety
+* Processing Method
+* Bags
+* Total Score
+
+### Countries Included
+
+* Brazil
+* Ethiopia
+* Colombia
+* India
+* Kenya
+
+---
+
+## 4. Database Design
+
+A relational database was created using MySQL.
+
+### Table Name
+
+`coffee`
+
+### Primary Key
+
+`id`
+
+### Table Structure
+
+```sql
+CREATE TABLE coffee(
+id INT PRIMARY KEY,
+country VARCHAR(50),
+variety VARCHAR(50),
+processing_method VARCHAR(50),
+bags INT,
+total_score DECIMAL(5,2)
+);
+
 #Overview:-
 Coffee is one of the most traded agricultural products in the world.
 Understanding coffee quality and production trends helps businesses improve sourcing decisions and identify high-performing coffee-producing regions. 
