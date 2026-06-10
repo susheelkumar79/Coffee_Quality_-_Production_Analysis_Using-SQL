@@ -135,22 +135,3 @@ B.Tech (Electronics & Communication Engineering)
 
 Aspiring Data Analyst | SQL | Excel | Power BI | Python
 
-Repository Structure
-Coffee-Quality-Production-Analysis-SQL
-│
-├── Dataset
-│   └── coffee_data.sql
-│
-├── SQL
-│   ├── schema.sql
-│   ├── insert_data.sql
-│   └── analysis_queries.sql
-│
-├── Outputs
-│   ├── output1.png
-│   ├── output2.png
-│   ├── output3.png
-│   └── output4.png
-│
-├── README.md
-└── Project_Report.pdf
